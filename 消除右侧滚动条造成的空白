@@ -1,0 +1,23 @@
+.banner {
+			position: relative;//设置高度,高度以下的溢出,隐藏,则不会出现滚动条(滚动条影响宽度取值)
+			overflow: hidden;
+			height: 475px;
+}
+
+.banner li{
+  float:left;
+}
+.banner li img {
+			width: 100%;
+			display: block;//(原本是行内元素,设置后图片下边不会留有白边)
+}	
+
+
+<div class="banner">
+				<ul>
+					<li><img src="img/img_01.jpg" /></li>
+					<li><img src="img/img_02.jpg" /></li>
+					<li><img src="img/img_03.jpg" /></li>
+					<li><img src="img/img_04.jpg" /></li>
+				</ul>
+</div>
